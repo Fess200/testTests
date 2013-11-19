@@ -10,4 +10,6 @@
 
 @interface ViewController : UIViewController
 
+-(double)summaX:(double)X Y:(double)Y;
+
 @end

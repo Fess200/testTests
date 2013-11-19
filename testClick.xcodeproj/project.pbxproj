@@ -16,22 +16,16 @@
 		496F1506183A25F10036610E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 496F1504183A25F10036610E /* Main.storyboard */; };
 		496F1509183A25F10036610E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 496F1508183A25F10036610E /* ViewController.m */; };
 		496F150B183A25F10036610E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 496F150A183A25F10036610E /* Images.xcassets */; };
-		496F1512183A25F10036610E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 496F1511183A25F10036610E /* XCTest.framework */; };
-		496F1513183A25F10036610E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 496F14F2183A25F10036610E /* Foundation.framework */; };
-		496F1514183A25F10036610E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 496F14F6183A25F10036610E /* UIKit.framework */; };
-		496F151C183A25F10036610E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 496F151A183A25F10036610E /* InfoPlist.strings */; };
-		496F151E183A25F10036610E /* testClickTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 496F151D183A25F10036610E /* testClickTests.m */; };
+		496F152E183A26E40036610E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 496F152D183A26E40036610E /* SenTestingKit.framework */; };
+		496F152F183A26E40036610E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 496F14F4183A25F10036610E /* CoreGraphics.framework */; };
+		496F1530183A26E40036610E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 496F14F6183A25F10036610E /* UIKit.framework */; };
+		496F1531183A26E40036610E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 496F14F2183A25F10036610E /* Foundation.framework */; };
+		496F1537183A26E40036610E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 496F1535183A26E40036610E /* InfoPlist.strings */; };
+		496F1539183A26E40036610E /* ExampleSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 496F1538183A26E40036610E /* ExampleSpec.mm */; };
+		496F153C183A26E50036610E /* Cedar-iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 496F153B183A26E50036610E /* Cedar-iOS.framework */; };
+		498C26BF183B57BC00F811F9 /* ViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 496F1507183A25F10036610E /* ViewController.h */; };
+		498C26C0183B57BC00F811F9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 496F1508183A25F10036610E /* ViewController.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		496F1515183A25F10036610E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 496F14E7183A25F10036610E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 496F14EE183A25F10036610E;
-			remoteInfo = testClick;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		496F14EF183A25F10036610E /* testClick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testClick.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,12 +41,16 @@
 		496F1505183A25F10036610E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		496F1507183A25F10036610E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		496F1508183A25F10036610E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		496F150A183A25F10036610E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		496F1510183A25F10036610E /* testClickTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testClickTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		496F150A183A25F10036610E /* Images.xcassets */ = {isa = PBXFileReference; explicitFileType = wrapper.application; name = Images.xcassets; path = testClick/Images.xcassets; sourceTree = SOURCE_ROOT; };
 		496F1511183A25F10036610E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		496F1519183A25F10036610E /* testClickTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testClickTests-Info.plist"; sourceTree = "<group>"; };
-		496F151B183A25F10036610E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		496F151D183A25F10036610E /* testClickTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testClickTests.m; sourceTree = "<group>"; };
+		496F152C183A26E40036610E /* twer.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = twer.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		496F152D183A26E40036610E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		496F1534183A26E40036610E /* twer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "twer-Info.plist"; sourceTree = "<group>"; };
+		496F1536183A26E40036610E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		496F1538183A26E40036610E /* ExampleSpec.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ExampleSpec.mm; sourceTree = "<group>"; };
+		496F153A183A26E40036610E /* Rakefile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Rakefile; sourceTree = "<group>"; };
+		496F153B183A26E50036610E /* Cedar-iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Cedar-iOS.framework"; path = "Frameworks/Cedar-iOS.framework"; sourceTree = "<group>"; };
+		496F153D183A26E50036610E /* twer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "twer-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,13 +64,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		496F150D183A25F10036610E /* Frameworks */ = {
+		496F1528183A26E40036610E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				496F1512183A25F10036610E /* XCTest.framework in Frameworks */,
-				496F1514183A25F10036610E /* UIKit.framework in Frameworks */,
-				496F1513183A25F10036610E /* Foundation.framework in Frameworks */,
+				496F152F183A26E40036610E /* CoreGraphics.framework in Frameworks */,
+				496F1530183A26E40036610E /* UIKit.framework in Frameworks */,
+				496F153C183A26E50036610E /* Cedar-iOS.framework in Frameworks */,
+				496F152E183A26E40036610E /* SenTestingKit.framework in Frameworks */,
+				496F1531183A26E40036610E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,7 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				496F14F8183A25F10036610E /* testClick */,
-				496F1517183A25F10036610E /* testClickTests */,
+				496F1532183A26E40036610E /* twer */,
 				496F14F1183A25F10036610E /* Frameworks */,
 				496F14F0183A25F10036610E /* Products */,
 			);
@@ -93,7 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				496F14EF183A25F10036610E /* testClick.app */,
-				496F1510183A25F10036610E /* testClickTests.xctest */,
+				496F152C183A26E40036610E /* twer.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,6 +105,7 @@
 				496F14F4183A25F10036610E /* CoreGraphics.framework */,
 				496F14F6183A25F10036610E /* UIKit.framework */,
 				496F1511183A25F10036610E /* XCTest.framework */,
+				496F152D183A26E40036610E /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -134,20 +135,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		496F1517183A25F10036610E /* testClickTests */ = {
+		496F1532183A26E40036610E /* twer */ = {
 			isa = PBXGroup;
 			children = (
-				496F151D183A25F10036610E /* testClickTests.m */,
-				496F1518183A25F10036610E /* Supporting Files */,
+				496F1538183A26E40036610E /* ExampleSpec.mm */,
+				496F153A183A26E40036610E /* Rakefile */,
+				496F153B183A26E50036610E /* Cedar-iOS.framework */,
+				496F1533183A26E40036610E /* Supporting Files */,
 			);
-			path = testClickTests;
+			path = twer;
 			sourceTree = "<group>";
 		};
-		496F1518183A25F10036610E /* Supporting Files */ = {
+		496F1533183A26E40036610E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				496F1519183A25F10036610E /* testClickTests-Info.plist */,
-				496F151A183A25F10036610E /* InfoPlist.strings */,
+				496F1534183A26E40036610E /* twer-Info.plist */,
+				496F1535183A26E40036610E /* InfoPlist.strings */,
+				496F153D183A26E50036610E /* twer-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -172,23 +176,23 @@
 			productReference = 496F14EF183A25F10036610E /* testClick.app */;
 			productType = "com.apple.product-type.application";
 		};
-		496F150F183A25F10036610E /* testClickTests */ = {
+		496F152B183A26E40036610E /* twer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 496F1524183A25F10036610E /* Build configuration list for PBXNativeTarget "testClickTests" */;
+			buildConfigurationList = 496F153E183A26E50036610E /* Build configuration list for PBXNativeTarget "twer" */;
 			buildPhases = (
-				496F150C183A25F10036610E /* Sources */,
-				496F150D183A25F10036610E /* Frameworks */,
-				496F150E183A25F10036610E /* Resources */,
+				496F1527183A26E40036610E /* Sources */,
+				496F1528183A26E40036610E /* Frameworks */,
+				496F1529183A26E40036610E /* Resources */,
+				496F152A183A26E40036610E /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				496F1516183A25F10036610E /* PBXTargetDependency */,
 			);
-			name = testClickTests;
-			productName = testClickTests;
-			productReference = 496F1510183A25F10036610E /* testClickTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
+			name = twer;
+			productName = twer;
+			productReference = 496F152C183A26E40036610E /* twer.octest */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -198,11 +202,6 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = Irevolution;
-				TargetAttributes = {
-					496F150F183A25F10036610E = {
-						TestTargetID = 496F14EE183A25F10036610E;
-					};
-				};
 			};
 			buildConfigurationList = 496F14EA183A25F10036610E /* Build configuration list for PBXProject "testClick" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -218,7 +217,7 @@
 			projectRoot = "";
 			targets = (
 				496F14EE183A25F10036610E /* testClick */,
-				496F150F183A25F10036610E /* testClickTests */,
+				496F152B183A26E40036610E /* twer */,
 			);
 		};
 /* End PBXProject section */
@@ -234,15 +233,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		496F150E183A25F10036610E /* Resources */ = {
+		496F1529183A26E40036610E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				496F151C183A25F10036610E /* InfoPlist.strings in Resources */,
+				496F1537183A26E40036610E /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		496F152A183A26E40036610E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		496F14EB183A25F10036610E /* Sources */ = {
@@ -255,23 +270,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		496F150C183A25F10036610E /* Sources */ = {
+		496F1527183A26E40036610E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				496F151E183A25F10036610E /* testClickTests.m in Sources */,
+				498C26BF183B57BC00F811F9 /* ViewController.h in Sources */,
+				498C26C0183B57BC00F811F9 /* ViewController.m in Sources */,
+				496F1539183A26E40036610E /* ExampleSpec.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		496F1516183A25F10036610E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 496F14EE183A25F10036610E /* testClick */;
-			targetProxy = 496F1515183A25F10036610E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		496F14FB183A25F10036610E /* InfoPlist.strings */ = {
@@ -290,10 +299,10 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		496F151A183A25F10036610E /* InfoPlist.strings */ = {
+		496F1535183A26E40036610E /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				496F151B183A25F10036610E /* en */,
+				496F1536183A26E40036610E /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -334,7 +343,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -367,7 +376,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -399,45 +408,57 @@
 			};
 			name = Release;
 		};
-		496F1525183A25F10036610E /* Debug */ = {
+		496F153F183A26E50036610E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/testClick.app/testClick";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					/Users/Andrew/Desktop/Projects/testClick/twer/Frameworks,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "testClick/testClick-Prefix.pch";
+				GCC_PREFIX_HEADER = "twer/twer-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "testClickTests/testClickTests-Info.plist";
+				INFOPLIST_FILE = "twer/twer-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-lstdc++",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
+				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
 		};
-		496F1526183A25F10036610E /* Release */ = {
+		496F1540183A26E50036610E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/testClick.app/testClick";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					/Users/Andrew/Desktop/Projects/testClick/twer/Frameworks,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "testClick/testClick-Prefix.pch";
-				INFOPLIST_FILE = "testClickTests/testClickTests-Info.plist";
+				GCC_PREFIX_HEADER = "twer/twer-Prefix.pch";
+				INFOPLIST_FILE = "twer/twer-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-lstdc++",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
+				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
@@ -460,14 +481,16 @@
 				496F1523183A25F10036610E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		496F1524183A25F10036610E /* Build configuration list for PBXNativeTarget "testClickTests" */ = {
+		496F153E183A26E50036610E /* Build configuration list for PBXNativeTarget "twer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				496F1525183A25F10036610E /* Debug */,
-				496F1526183A25F10036610E /* Release */,
+				496F153F183A26E50036610E /* Debug */,
+				496F1540183A26E50036610E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -38,6 +38,16 @@
                ReferencedContainer = "container:testClick.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "496F152B183A26E40036610E"
+               BuildableName = "twer.octest"
+               BlueprintName = "twer"
+               ReferencedContainer = "container:testClick.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
